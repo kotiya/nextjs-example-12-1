@@ -1,0 +1,59 @@
+# Dependencies 
+node_modules
+
+# Production build
+.next
+out
+
+# Environment variables
+.env
+.env.local
+
+# Logs and debugging
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache and temp files
+.cache/
+*.log
+*.tmp
+
+# Editor files
+.vscode
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Next.js build output
+.next
+out
+
+# Ignore build files except the exportJSON in out dir
+out/*
+!out/exportJSON
+
+# Linting and formatting
+.eslintcache
+.stylelintcache
+
+# Testing
+coverage/
+
+# Verdaccio local NPM registry for development
+verdaccio/storage/*
+verdaccio/config.yaml
+
+# Typescript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
